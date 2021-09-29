@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 03</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="container__title">O que eu quero escutar agora?</h1>
+    <form class="container__form" action="https://www.google.com/search" target="_blank">
+      <div class="container__genero">
+        <label for="genero-musical">Gênero Músical</label>
+        <select id="genero-musical">
+          <option value="0">Selecione</option>
+          <option value="hard-rock">Hard Rock</option>
+          <option value="indie-pop">Indie Pop</option>
+          <option value="rock-nacional">Rock Nacional</option>
+        </select>
+      </div>
+      <div class="musica none">
+        <label for="musica">Música</label>
+        <input type="text" id="musica" name="q">
+      </div>
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+</body>
+
+</html>

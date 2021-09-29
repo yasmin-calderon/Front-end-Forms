@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 01</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="container__title">Cadastro</h1>
+    <form class="container__form">
+      <div class="container__input">
+        <label class="label" for="nome">Nome</label>
+        <input class="input" type="text" id="nome" required>
+      </div>
+      <div class="container__input">
+        <label class="label" for="e-mail">E-mail</label>
+        <input class="input" type="email" id="e-mail" required>
+      </div>
+      <div class="container__input">
+        <label class="label" for="celular">Celular</label>
+        <input class="input" type="number" id="celular" required>
+      </div>
+      <div class="container__input">
+        <label class="label" for="senha">Senha</label>
+        <input class="input" type="password" id="senha" required>
+      </div>
+      <div class="container__input">
+        <label class="label" for="confirmar-senha">Confirmar senha</label>
+        <input class="input" type="password" id="confirmar-senha" required>
+      </div>
+      <div class="container__input">
+        <label class="label" for="estado">Estado</label>
+        <select id="estado">
+          <option value="0">Selecione</option>
+          <option value="acre">Acre</option>
+          <option value="alagoas">Alagoas</option>
+          <option value="amapa">Amapá</option>
+          <option value="amazonas">Amazonas</option>
+          <option value="bahia">Bahia</option>
+          <option value="ceara">Ceará</option>
+          <option value="espirito-santo">Espírito Santo</option>
+          <option value="goias">Goiás</option>
+          <option value="maranhao">Maranhão</option>
+          <option value="mato-grosso">Mato Grosso</option>
+          <option value="mato-grosso-do-sul">Mato Grosso do Sul</option>
+          <option value="minas-gerais">Minas Gerais</option>
+          <option value="para">Pará</option>
+          <option value="paraiba">Paraíba</option>
+          <option value="parana">Paraná</option>
+          <option value="pernambuco">Pernambuco</option>
+          <option value="piaui">Piauí</option>
+          <option value="rio-de-janeiro">Rio de Janeiro</option>
+          <option value="rio-grande-do-norte">Rio Grande do Norte</option>
+          <option value="rio-grande-do-sul">Rio Grande do Sul</option>
+          <option value="rondonia">Rondônia</option>
+          <option value="roraima">Roraima</option>
+          <option value="santa-catarina">Santa Catarina</option>
+          <option value="sao-paulo">São Paulo</option>
+          <option value="sergipe">Sergipe</option>
+          <option value="tocantins">Tocantins</option>
+          <option value="distrito-federal">Distrito Federal</option>
+        </select>
+      </div>
+      <button class="container__form__button" type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>

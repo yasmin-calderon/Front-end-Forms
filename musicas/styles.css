@@ -1,0 +1,141 @@
+button, input, select {
+  all: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #E5FBB8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  font-family: 'Fredoka One', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__title {
+  background-color: #FE9898;
+  color: #9739f0;
+
+  border-radius: 80px;
+
+  padding: 60px;
+
+  font-size: 40px;
+
+  margin-bottom: 50px;
+}
+
+.container__form {
+  background-color: #B980F0;
+
+  font-size: 20px;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 40px;
+
+  width: 500px;
+}
+
+.container__genero {
+  margin-bottom: 20px;
+}
+
+label {
+  background-color: #F5E79D;
+  color: #ff8484;
+
+  border-radius: 10px;
+  padding: 5px;
+}
+
+select {
+  background-color: #F5E79D;
+  color: #ff8484;
+  border: 2px solid transparent;
+
+  text-align: center;
+
+  border-radius: 10px;
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: #fcf0b4;
+  border: 2px solid #ff8484;
+}
+
+option {
+  text-align: center;
+}
+
+.musica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.musica label {
+  margin-bottom: 10px;
+}
+
+.musica input {
+  background-color: #FE9898;
+  color: #9739f0;
+
+  border-radius: 5px;
+  padding: 10px;
+
+  width: 250px;
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #c6fc59;
+  color: #f36767;
+  border: 2px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+
+  width: 150px;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d1fd7a;
+  border: 2px solid #f36767;
+}
+
+.none {
+  display: none;
+}
